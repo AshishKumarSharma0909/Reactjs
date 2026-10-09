@@ -1,0 +1,261 @@
+#navbar .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#navbar .nav-item {
+    margin-left: 25px;
+}
+
+#navbar {
+    background: linear-gradient(to right, #111827, #2563EB);
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .navbar-brand {
+    color: white;
+    font-size: 25px ;
+}
+
+
+ .card {
+    height: 300px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+#counterparent{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+height: 80vh;
+background-color: #F8FAFC;
+
+}
+
+#counterchild{
+height: 300px;
+width: 250px;
+  box-shadow: 2px 4px 4px 4px gray;
+border-radius: 5%;
+background-color: #FFFFFF;
+
+}
+
+#counterheading{
+    font-size: 20px ;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #1E293B;
+
+}
+
+#counterdigit{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+     color: #0F172A;
+}
+
+#buttoninc{
+    height: 40px;
+    width: 140px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background: linear-gradient(to right, #2563EB, #1D4ED8);
+
+    border: 1px solid #2563EB;
+
+
+}
+
+#buttondec{
+      height: 40px;
+    width: 140px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #F59E0B, #D97706);
+
+    border: 1px solid #F59E0B;
+
+}
+
+#buttonres{
+     height: 40px;
+    width: 140px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background: linear-gradient(to right, #EF4444, #DC2626);
+
+    border: 1px solid #EF4444;
+}
+
+/* counter app */
+/* 
+#buttoninc:hover{
+   background: linear-gradient(to right, rgb(155, 56, 72),rgb(67, 4, 15));
+    color: black;
+}
+#buttondec:hover{
+  background: linear-gradient(to right, rgb(56, 150, 155),rgb(11, 63, 98));
+    color: black;
+}
+#buttonres:hover{
+   
+    background: linear-gradient(to right, rgb(189, 174, 12),rgb(158, 193, 31));
+    color: black;
+}
+
+#counterdigit:hover{
+    color: aqua;
+}
+
+#counterheading:hover{
+color: rgb(72, 8, 8);
+} */
+
+#backparent{
+    display: flex;
+    height: 450px;
+    width: 800px;
+}
+
+ 
+/* post ki css */
+
+ .post-container {
+  padding: 30px;
+}
+
+.post-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.post-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px gray;
+}
+
+.post-card h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.post-card p {
+  line-height: 1.6;
+}
+
+.post-card button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+#formdataparent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 80vh;
+}
+
+#formdatachild{
+  height: 380px;
+  width: 300px;
+  border: none;
+  box-shadow: 10px 15px 20px gray;
+  border-radius: 5%;
+  margin-top: 40px;
+}
+
+#formheading{
+  text-align: center;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.formlabel{
+  margin-left: 35px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#userfiled{
+  margin-left: 35px;
+
+}
+
+#emailfiled{
+  margin-left: 35px;
+}
+
+ #passwordfiled{
+  margin-left: 35px;
+ }
+
+ #formbutton{
+  margin: 20px;
+  margin-left: 35px;
+  height: 45px;
+  width: 200px;
+  background-color: chartreuse;
+
+ }
+
+.propheading{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#todoheading{
+  margin-top: 20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-shadow: 2px 3px 4px gray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#todobutton{
+  height: 45px;
+  background: linear-gradient(to right, #111827, #2563EB);
+  box-shadow: 3px 4px 6px gray;
+  color: #F8FAFC;
+border: 1px solid #2563EB ;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
